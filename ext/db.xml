@@ -1,0 +1,9 @@
+<?xml version="1.0" encondig="UTF-8"?>
+
+<Users>
+    <Person id="1">
+        <name>admin</name>
+        <money>5000</money>
+        <active>1</active>
+    </Person>
+</Users>

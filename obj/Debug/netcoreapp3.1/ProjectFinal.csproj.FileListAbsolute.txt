@@ -1,0 +1,13 @@
+/mnt/d/Proyectos C#/ProjectFinal/bin/Debug/netcoreapp3.1/ProjectFinal
+/mnt/d/Proyectos C#/ProjectFinal/bin/Debug/netcoreapp3.1/ProjectFinal.deps.json
+/mnt/d/Proyectos C#/ProjectFinal/bin/Debug/netcoreapp3.1/ProjectFinal.runtimeconfig.json
+/mnt/d/Proyectos C#/ProjectFinal/bin/Debug/netcoreapp3.1/ProjectFinal.runtimeconfig.dev.json
+/mnt/d/Proyectos C#/ProjectFinal/bin/Debug/netcoreapp3.1/ProjectFinal.dll
+/mnt/d/Proyectos C#/ProjectFinal/bin/Debug/netcoreapp3.1/ProjectFinal.pdb
+/mnt/d/Proyectos C#/ProjectFinal/obj/Debug/netcoreapp3.1/ProjectFinal.csprojAssemblyReference.cache
+/mnt/d/Proyectos C#/ProjectFinal/obj/Debug/netcoreapp3.1/ProjectFinal.AssemblyInfoInputs.cache
+/mnt/d/Proyectos C#/ProjectFinal/obj/Debug/netcoreapp3.1/ProjectFinal.AssemblyInfo.cs
+/mnt/d/Proyectos C#/ProjectFinal/obj/Debug/netcoreapp3.1/ProjectFinal.csproj.CoreCompileInputs.cache
+/mnt/d/Proyectos C#/ProjectFinal/obj/Debug/netcoreapp3.1/ProjectFinal.dll
+/mnt/d/Proyectos C#/ProjectFinal/obj/Debug/netcoreapp3.1/ProjectFinal.pdb
+/mnt/d/Proyectos C#/ProjectFinal/obj/Debug/netcoreapp3.1/ProjectFinal.genruntimeconfig.cache
