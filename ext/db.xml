@@ -14,18 +14,4 @@
     <money>7000</money>
     <active>1</active>
   </Person>
-  <Person>
-    <id>3</id>
-    <name>Paco</name>
-    <pass>12000</pass>
-    <money>1</money>
-    <active>1</active>
-  </Person>
-  <Person>
-    <id>4</id>
-    <name>Paco</name>
-    <pass>5678</pass>
-    <money>13000</money>
-    <active>1</active>
-  </Person>
 </Users>

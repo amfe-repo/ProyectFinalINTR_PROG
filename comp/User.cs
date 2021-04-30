@@ -1,3 +1,5 @@
+using System;
+
 namespace comp
 {
     public class User
@@ -24,9 +26,14 @@ namespace comp
             xml_interface.createInfo(this.id, this.name, this.password, this.money, this.active);
         }
 
-        public void verifyUserDB()
+        public bool verifyUserDB()
         {
-            xml_interface.createInfo(this.id, this.name, this.password, this.money, this.active);
+            foreach (string item in xml_interface.verifyInfo("", "name", "name"))
+            {
+                if (this.name == item) return true;
+            }
+
+            return false; 
         }
 
         public void updateUserDBName(string condition_id, string name)
@@ -43,6 +50,11 @@ namespace comp
         {
             xml_interface.updateInfo(condition_id, this.id, this.name, this.money, active.ToString());
         }
+
+        //Setters
+
+        public string getName () => this.name;
+        public string getMoney () => this.money;
 
     }
 }

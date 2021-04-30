@@ -1,6 +1,7 @@
 using System;
 using System.Xml;
 using System.IO;
+using System.Collections.Generic;
 
 
 namespace comp
@@ -17,7 +18,7 @@ namespace comp
         public void readInfo(string condition = "", params dynamic[] obj)
         {   
             xml_doc.Load(route_xml);
-
+            
             XmlNodeList list_xml = xml_doc.SelectNodes("Users/Person");
 
             foreach (XmlNode item in list_xml)
@@ -40,6 +41,43 @@ namespace comp
                 }
             }
             
+        }
+
+        public List<string> verifyInfo(string condition_id = "", string filter = "", params dynamic[] obj)
+        {
+            xml_doc.Load(route_xml);
+            
+            List<string> element_string = new List<string>();
+
+            XmlNodeList list_xml = xml_doc.SelectNodes("Users/Person");
+
+            foreach (XmlNode item in list_xml)
+            {
+                foreach (string str_element in obj)
+                {
+                    XmlNode general_single_node = item.SelectSingleNode(str_element);
+
+                    if (condition_id != "")
+                    {
+                        if (item.FirstChild.InnerText == condition_id)
+                        {
+                            element_string.Add(general_single_node.InnerText); 
+                        }
+                    }
+                    else
+                    {
+                        
+                        if (str_element == filter)
+                        {
+                            element_string.Add(general_single_node.InnerText);
+                        }
+                        
+                    }
+                
+                }
+            }
+
+            return element_string;
         }
 
         public void deleteInfo(params dynamic[] obj)
