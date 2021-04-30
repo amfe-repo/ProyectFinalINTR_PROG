@@ -1,9 +1,14 @@
-<?xml version="1.0" encondig="UTF-8"?>
-
+<?xml version="1.0"?>
 <Users>
-    <Person id="1">
-        <name>admin</name>
-        <money>5000</money>
-        <active>1</active>
-    </Person>
+  <Person>
+    <id>Alfarero</id>
+    <name>10000</name>
+    <money>1</money>
+  </Person>
+  <Person>
+    <id>2</id>
+    <name>Pepito</name>
+    <money>7000</money>
+    <active>1</active>
+  </Person>
 </Users>
