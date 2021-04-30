@@ -1,14 +1,31 @@
 <?xml version="1.0"?>
 <Users>
   <Person>
-    <id>Alfarero</id>
-    <name>10000</name>
-    <money>1</money>
+    <id>1</id>
+    <name>Alfarero</name>
+    <pass>12345</pass>
+    <money>10000</money>
+    <active>1</active>
   </Person>
   <Person>
     <id>2</id>
     <name>Pepito</name>
+    <pass>fuerte</pass>
     <money>7000</money>
+    <active>1</active>
+  </Person>
+  <Person>
+    <id>3</id>
+    <name>Paco</name>
+    <pass>12000</pass>
+    <money>1</money>
+    <active>1</active>
+  </Person>
+  <Person>
+    <id>4</id>
+    <name>Paco</name>
+    <pass>5678</pass>
+    <money>13000</money>
     <active>1</active>
   </Person>
 </Users>

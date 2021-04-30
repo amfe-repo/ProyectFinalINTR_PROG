@@ -9,7 +9,7 @@ namespace comp
     {   
         string route_xml = $"{Environment.CurrentDirectory}/ext/db.xml";
 
-        string[] list_elements_xml = {"id", "name", "money", "active"}; 
+        string[] list_elements_xml = {"id", "name", "pass", "money", "active"}; 
 
         XmlDocument xml_doc = new XmlDocument();
 
@@ -120,6 +120,27 @@ namespace comp
             }
 
             return docNewElement;
+        }
+
+        private int countXmlNodes()
+        {
+            int counter = 0;
+
+            xml_doc.Load(route_xml);
+
+            XmlNodeList list_xml = xml_doc.SelectNodes("Users/Person");
+
+            foreach (var item in list_xml)
+            {
+                counter++;
+            }
+
+            return counter;
+        }
+
+        public int generateId()
+        {   
+            return countXmlNodes() + 1; 
         }
     }
 }
